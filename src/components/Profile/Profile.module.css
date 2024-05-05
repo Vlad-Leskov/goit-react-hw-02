@@ -1,0 +1,39 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  border: 4px solid black;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+}
+
+.avatar {
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgb(61, 48, 48);
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(199, 199, 199);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 2px solid rgb(129, 129, 129);
+}

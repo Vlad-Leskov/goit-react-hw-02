@@ -1,0 +1,20 @@
+.online {
+  color: green; /* Колір тексту для статусу Online */
+}
+
+.offline {
+  color: red; /* Колір тексту для статусу Offline */
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid black;
+  border-radius: 12px;
+  width: 200px;
+  padding: 12px;
+}
+
+.avatar {
+  margin: 0 auto;
+}
